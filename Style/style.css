@@ -39,8 +39,17 @@ p {
   padding-left: 2%;
   padding-right: 2%;
   background: white;
-  width: 90%;
+  width: 40%;
  
+}
+.header button{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    border: solid 2px #079cdb;
+    padding: 9px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -49,5 +58,8 @@ p {
   }
   .header{
       margin-top: 1%;
+  }
+  .header {
+width: 80%;
   }
 }
